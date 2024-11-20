@@ -1,0 +1,858 @@
+/* ===================================== All Common Css Start ========================================= */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contianer {
+  width: 1188px;
+  margin: 0 auto; 
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul,li {
+  list-style-type: none;
+}
+
+h1,h2,h3,h4,h5,h6, p {
+  line-height: 0.8;
+}
+/* ===================================== All Common Css End ========================================= */
+
+/* ===================================== Top Header Part Start ========================================= */
+
+#topHeaderPart {
+  padding: 20px 0;
+  background-color: #545454;
+}
+
+.topheaderfelex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topheaderleft {
+  color: white;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 100px;
+}
+
+.topheaderleft i {
+  color: #fff;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.topheaderleft span {
+  padding-right: 20px;
+}
+
+.topheaderright {
+  margin-right: 80px;
+}
+
+.topheaderright i {
+  color: white;
+  padding: 0 20px;
+  font-size: 14px;
+}
+/* ===================================== Top Header Part End ========================================= */
+
+/* ===================================== Header Part Start ========================================= */
+
+#headerpart {
+  padding: 20px 0;
+  background-color: #fff;
+}
+
+.logowithmenu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: 100px;
+}
+
+.menu {
+  padding-top: 15px;
+  margin-right: 80px;
+}
+
+.menu ul li a {
+  padding: 0 20px;
+  color: #555555;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+}
+
+.menu ul li{
+display: inline-block;
+}
+/* ===================================== Header Part End ========================================= */
+
+
+/* ===================================== Banner Part Start ========================================= */
+
+#bannerpart {
+  background-image: url(../Images/12.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banneroverly {
+  padding: 150px 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bannertext {
+  text-align: center;
+}
+
+.bannertext span {
+  color: #f8b864;
+}
+
+.bannertext h2 {
+  font-size: 30px;
+  color: white;
+  font-weight: 700;
+  font-family: "Roboto Slab", serif;
+}
+
+.bannertext h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  font-family: "Roboto Slab", serif;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.bannertext p {
+  color: white;
+  font-size: 18px;
+  font-weight: 30px;
+  font-weight: 500;
+  /* padding: 0 365px; */
+  line-height: 30px;
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.bannertext a {
+  padding: 15px 30px;
+  background-color: #f8b864;
+  border-radius: 40px;
+  font-size: 16px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+/* ===================================== Banner Part End ========================================= */
+
+
+/* ===================================== Goal Part Start ========================================= */
+
+#goalpart {
+padding-bottom: 250px;
+background-color: white;
+}
+
+.over {
+  position: relative;
+}
+
+.goalcard {
+position: absolute;
+background-color: white;
+box-shadow: 0 0 5px rgba(85, 85, 85, 0.2);
+padding: 100px 0;
+width: 100%;
+left: 50%;
+top: -100px;
+transform: translateX(-50%);
+text-align: center;
+}
+
+.goalcard h2{
+font-size: 36px;
+color: #555;
+font-weight: 700;
+font-family: "Roboto Slab", serif;
+}
+
+.goalhand {
+  position: relative;
+  display: inline-block;
+  padding: 15px 0;
+}
+
+.goalhand::before {
+height: 1px;
+width: 150px;
+background-color: #dddddd;
+position: absolute;
+content: "";
+top: 50%;
+left: -170px;
+transform: translateY(-50%);
+}
+
+.goalhand::after {
+  height: 1px;
+  width: 150px;
+  background-color: #dddddd;
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: -170px;
+  transform: translateY(-50%);
+  }
+
+  .goalcard p {
+    color: #777;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .goalitempart {
+    display: flex; 
+    justify-content: space-between;
+    margin: 60px 40px;
+  
+  }
+
+  .goalItem {
+    width: 30%;
+  }
+
+  .goalItem {
+    text-align: center;
+  }
+
+  .goalItem i {
+    font-size: 36px;
+    color: #777;
+  }
+  .goalItem h3 {
+    color: #555555;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Roboto Slab", serif;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .goalItem p {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    color: #777777;
+    font-family: "Open Sans", sans-serif;
+  }
+/* ===================================== Goal Part End ========================================= */
+
+
+/* ===================================== Causes Part Start ========================================= */
+
+
+#Causespart {
+padding-top: 350px;
+padding-bottom: 80px;
+}
+
+.Causesparttext {
+  text-align: center;
+}
+
+.Causesparttext h2 {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: "Roboto Slab", serif;
+  color: #555;
+}
+
+.Causesparthand {
+  position: relative;
+  display: inline-block;
+  margin: 20px 20px;
+}
+
+.Causesparthand::before {
+height: 1px;
+width: 150px;
+background-color: #dddddd;
+content: "";
+position: absolute;
+left: -170px;
+top: 50%;
+transform: translateY(-50%);
+}
+
+.Causesparthand::after {
+  height: 1px;
+  width: 150px;
+  background-color: #dddddd;
+  content: "";
+  position: absolute;
+  right: -170px;
+  top: 50%;
+  transform: translateY(-50%);
+  }
+
+  .Causesparttext p {
+    color: #777;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: "Open Sans", sans-serif;
+  }
+
+/* ===================================== Causes Part End ========================================= */
+
+
+
+/* ===================================== Causesitem part start ========================================= */
+
+#causespart {
+  padding: 0px 0px;
+}
+
+.causesfelex {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.causesitem {
+  width: 31%;
+  box-shadow: 0 3px 5px rgba(85, 85, 85, 0.2);
+}
+
+.causesimg img{
+  width: 100%;
+}
+
+.causestext {
+  padding: 30px;
+}
+
+.causestext h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #555;
+  font-family: "Roboto Slab", serif;
+}
+
+.causestext p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
+  color: #777777;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.dolarfelex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.causestext a {
+  padding: 10px 25px;
+  background-color: #f8b864;
+  border-radius: 30px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.leftdolar h4 {
+  color: #888888;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+.leftdolar h4 span {
+  color: #555555;
+}
+
+.rightdolar h4 {
+  color: #888888;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.rightdolar h4 span {
+  color: #555555;
+}
+/* ===================================== Causesitem part End ========================================= */
+
+
+/* ===================================== imageortexpart start ========================================= */
+
+#videopart {
+  padding-top: 700px;
+
+}
+
+.videoitemfelex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.videoleft {
+  width: 45%;
+  position: relative;
+}
+
+.videoleft img {
+  width: 100%;
+}
+
+.icon {
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+}
+
+.videotext {
+  padding: 50px;
+  width: 45%;
+}
+
+.videotext h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #555;
+  font-family: "Roboto Slab", serif;
+  position: relative;
+}
+
+.videotext h3::before {
+position: absolute;
+content: "";
+height: 1px;
+width: 80px;
+background-color: #d99c4d;
+left: 0;
+top: 60px;
+}
+
+.videotext p {
+  color: #555;
+  font-size: ;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  padding-top: 60px;
+  width: 90%;
+}
+
+.videotext a {
+  padding: 10px 25px;
+  background-color: #f8b864;
+  border-radius: 30px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 20px;
+}
+/* ===================================== imageortexpart End ========================================= */
+
+#videopart2 {
+padding-top: 100px;
+padding-bottom: 150px;
+}
+
+.videoitem2flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.videotext2 {
+  padding: 50px;
+  width: 45%;
+}
+
+.videotext2 h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #555;
+  font-family: "Roboto Slab", serif;
+  position: relative;
+}
+
+.videotext2 h3::before {
+position: absolute;
+content: "";
+height: 1px;
+width: 80px;
+background-color: #d99c4d;
+left: 0;
+top: 60px;
+}
+
+.videotext2 p {
+  color: #555;
+  font-size: ;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  padding-top: 60px;
+  width: 90%;
+}
+
+.videotext2 a {
+  padding: 10px 25px;
+  background-color: #f8b864;
+  border-radius: 30px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+
+.videoleft2 {
+  width: 45%;
+  position: relative;
+}
+
+.videoleft2 img {
+  width: 100%;
+}
+
+.icon {
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+}
+
+/*================================= Number Image Part Start=====================================*/
+
+#numberimage {
+background-image: url(../Images/1\ \(1\).jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.overlynumberimag {
+  background-color: rgba(0, 0, 0, 0.5);
+padding-top: 140px;
+padding-bottom: 125px;
+}
+
+.numberpartflex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.number1 {
+  width: 25%;
+  text-align: center;
+}
+
+.number1 h1 {
+  color: white;
+  font-size: 60px;
+  font-family: "Roboto Slab", serif;
+  height: 100px;
+}
+
+.number1 p {
+  color: white;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+/*================================= Number Image Part End=====================================*/
+
+/* ================================= How Can You Help Part ===================================== */
+#youhelppart {
+  padding: 200px 0;
+  background-color: #f8f8f8;
+}
+
+.youhelptext {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  color: #555;
+  font-family: "Roboto Slab", serif;
+}
+
+.helphand {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.helphand::before {
+position: absolute;
+content: "";
+height: 1px;
+width: 150px;
+background-color: #dddddd;
+left: -170px;
+top: 50%;
+transform: translateY(-50%);
+}
+
+.helphand::after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 150px;
+  background-color: #dddddd;
+  right: -170px;
+  top: 50%;
+  transform: translateY(-50%);
+  }
+
+  .youhelptext p {
+    color: #777;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: "Open Sans", sans-serif;
+  }
+ 
+.helpimagepartflex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  align-items: center;
+}
+
+.helpleftimage {
+  width: 45%;
+}
+
+.helprighttext {
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px;
+  row-gap: 60px;
+}
+
+.iitem {
+  width: 47%;
+  text-align: center;
+
+}
+
+.iitem i {
+  color: #777;
+  font-size: 36px;
+}
+
+.iitem h3 {
+  color: #555555;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto Slab", serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.iitem p {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 24px;
+  color: #777777;
+  font-family: "Open Sans", sans-serif;
+}
+/* ================================= How Can You Help Part ===================================== */
+
+/* ================================= Form The BlogPart ===================================== */
+
+#fromtheblog {
+padding: 100px 0;
+}
+
+.fromtheblogtext {
+  text-align: center;
+}
+
+.fromtheblogtext h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #555;
+  font-family: "Roboto Slab", serif;
+}
+
+.frombloghand {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 0;
+
+}
+
+.frombloghand::before {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 150px;
+  background-color: #dddddd;
+  left: -170px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.frombloghand::after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 150px;
+  background-color: #dddddd;
+  right: -170px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.fromtheblogtext p {
+  color: #777;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+}
+
+.lastfelexpart {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.itemno1 {
+  width: 31%;
+  box-shadow: 0 3px 5px rgba(85, 85, 85, 0.2);
+}
+
+.itemno1text {
+  padding: 20px;
+}
+
+.itemno1 img {
+  width: 100%;
+}
+
+.itemno1 span {
+    color: #777;
+    font-family: roboto slab;
+    font-size: 14px;
+    font-family: "Roboto Slab";
+}
+
+.itemno1 h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #555;
+  font-family: "Roboto Slab", serif;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.itemno1 a {
+    color: #777777;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Roboto Slab", serif;
+}
+/* ================================= Form The BlogPart ===================================== */
+
+
+/* ================================= copyright part start ===================================== */
+
+#copyrightpart {
+padding-top: 100px;
+padding-bottom: 5px;
+  background-color: #2e2e2e;
+}
+
+
+.copyrightflex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyrightitem {
+  width: 22%;
+}
+
+.copyrightitem h3 {
+  color: #fff;
+  font-family: open sans;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.copyrightitem p {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    color: #aaaaaa;
+    font-family: "Open Sans", sans-serif;
+}
+
+.copyrightitem ul li a {
+  color: #aaaaaa;
+padding-bottom: 20px;
+font-family: "Open Sans", sans-serif;
+}
+
+.imgflex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 10px;
+}
+.itemimg {
+  width: 30%;
+}
+.itemimg img {
+  width: 100%;
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  background-color: #aaaaaa;
+  margin-top: 120px;
+}
+
+.contianer .ptag {
+  color: white;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin: 25px;
+}
+/* ================================= copyright part End ===================================== */
