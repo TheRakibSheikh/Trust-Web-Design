@@ -91,6 +91,11 @@ h1,h2,h3,h4,h5,h6, p {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
+  transition: .4s;
+}
+
+.menu a:hover {
+  color: #d99c4d;
 }
 
 .menu ul li{
@@ -158,6 +163,12 @@ display: inline-block;
   color: white;
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
+  transition: .4s;
+}
+
+.bannertext a:hover {
+  background-color: #fff;
+  color: #545454;
 }
 /* ===================================== Banner Part End ========================================= */
 
@@ -381,6 +392,12 @@ transform: translateY(-50%);
   font-weight: 400;
   font-size: 14px;
   margin-top: 30px;
+  transition: .4s;
+}
+
+.causestext a:hover {
+  background-color: rgb(152, 152, 152);
+  color: #ffffff;
 }
 
 .leftdolar h4 {
@@ -477,6 +494,12 @@ top: 60px;
   font-weight: 400;
   font-size: 14px;
   margin-top: 20px;
+  transition: .4s;
+}
+
+.videotext a:hover {
+  background-color: #aaaaaa;
+  color: #ffffff;
 }
 /* ===================================== imageortexpart End ========================================= */
 
@@ -532,6 +555,12 @@ top: 60px;
   font-weight: 400;
   font-size: 14px;
   margin-top: 20px;
+  transition: .4s;
+}
+
+.videotext2 a:hover {
+  background-color: #aaaaaa;
+  color: #ffffff;
 }
 
 
